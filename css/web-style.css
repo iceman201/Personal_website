@@ -138,7 +138,7 @@ h4
      {
          color: #999;
          font-weight: 300;
-         font-size: 13px;
+         font-size: 18px;
          text-transform: uppercase;
     }
 .custom-navbar .nav li a:hover
@@ -192,6 +192,12 @@ h4
         color: #55acee;
         font-weight: bold;
     }
+#home span1
+    {
+        color: #55678F;
+        font-weight: bold;
+    }
+
 #home .btn {
     background: rgba(0,0,0,0.6);
     border: none;

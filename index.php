@@ -58,32 +58,49 @@ Individual creation
 		<div class="overlay">
 			<div class="flexslider">
 				<ul class="slides">
+					<!-- 1st picture #website-->
 					<li>
 						<img src="images/slider/1.jpg" alt="Slide 1">
 						<div class="slider-caption">
 							<div class="webmo_homewrapper">
 								<h3 class="wow bounceIn">web design and development</h3>
-								<h1 class="wow bounce">Digital Studio</h1>
+								<h1 class="wow bounce">
+									<span1>Digital Studio</span1>
+								</h1>
 								<h2>
 									<span class="wow fadeIn" data-wow-delay="0.3s">WEB,</span>
 									<span class="wow fadeIn" data-wow-delay="0.6s">MOBILE,</span>
-									<span class="wow fadeIn" data-wow-delay="0.9s">UX DESIGN</span>
+									<span class="wow fadeIn" data-wow-delay="1.0s">UX DESIGN</span>
 								</h2>
-								<a href="#portfolio" class="smoothScroll webmo-slider-btn btn btn-default">Learn More</a>
+								<a href="#service" class="smoothScroll webmo-slider-btn btn btn-default">See More</a>
 							</div>
 						</div>
 					</li>
+					<!-- 2nd picture #website-->
 					<li>
 						<img src="images/slider/2.jpg" alt="Slide 2">
 						<div class="slider-caption">
 							<div class="webmo_homewrapper">
                             	<h2>CSS Flexbox</h2>
 								<h1>Flex Slider</h1>
-								<h3>Work on all modern browsers, IE 10+</h3>
+								<h3>Work on all modern browsers, Chrome, Firefox, IE 10+</h3>
 								<a href="#about" class="smoothScroll webmo-slider-btn btn btn-default">Meet Our Team</a>	
 							</div>
 						</div>
 					</li>
+					<!-- 3rd picture #App develop-->
+					<li>
+						<img src="images/slider/3.jpg" alt="Slide 3">
+						<div class="slider-caption">
+							<div class="webmo_homewrapper">
+                            	<h2 >Mobile development</h2>
+								<h1 >IOS, Swift</h1>
+								<h3>E-Commerce, Social Networking, Entertainment APP </h3>
+								<a href="#portfolio" class="smoothScroll webmo-slider-btn btn btn-default">Project</a>	
+							</div>
+						</div>
+					</li>
+					<!-- end -->
 				</ul>
 			</div>
 		</div>
@@ -184,7 +201,7 @@ Individual creation
 				<div class="col-md-12 wow bounceIn">
 					<h2>About</h2>
 					<hr>
-					<h4>a little about our team...</h4>
+					<h4>a little about our Studio...</h4>
 				</div>
 
 			</div>
@@ -196,13 +213,12 @@ Individual creation
 				</div>
 				<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.3s">
 
-					<span class="text-uppercase">BOOTSTRAP 100%</span>
-
+					<span class="text-uppercase">BOOTSTRAP, JavaScript, HTML5, CSS3 &amp; C# 100%</span>
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
 					</div>
 
-					<span class="text-uppercase">HTML5 &AMP; CSS3 90%</span>
+					<span class="text-uppercase">Mobile Development Swift 70%</span>
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
 					</div>
@@ -216,40 +232,38 @@ Individual creation
 			</div>
 
 			<div class="row">
-				<!-- Danial Bathurst-->
-				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-					<div class="about-wrapper">
-						<img src="images/team-img-1.png" class="img-responsive" alt="about img">
-						<h3>Someone 1</h3>
-						<h5>Founder &amp; Director</h5>
-					</div>
-				</div>
-				<!-- Leandro Jiao -->
+
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
 						<img src="images/team-img-2.png" class="img-responsive" alt="about img">
-						<h3>Ms.Haha</h3>
-						<h5>Creative Manager</h5>
+						<h3>Leandro Jiao</h3>
+						<h5>Founder &amp; Director &amp; Programmer</h5>
 					</div>
 				</div>
-				<!-- My cat Mingming -->
+
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
-						<img src="images/team-img-3.png" class="img-responsive" alt="about img">
-						<h3>Mr.Japan</h3>
-						<h5>Co-Founder &amp; Designer</h5>
+						<img src="images/team-img-1.png" class="img-responsive" alt="about img">
+						<h3>Daniel Bathurst</h3>
+						<h5>Founder &amp; Techical Manager</h5>
 					</div>
 				</div>
-				<!--  Nana??
 
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
 						<img src="images/team-img-3.png" class="img-responsive" alt="about img">
-						<h3>Mr.Japan</h3>
-						<h5>Co-Founder &amp; Designer</h5>
+						<h3>Ms. Lazzzzzy</h3>
+						<h5>Eatting &amp; Sleeping</h5>
 					</div>
 				</div>
-				-->
+
+				<div class="col-md-4 col-md-push-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+					<div class="about-wrapper">
+						<img src="images/team-img-3.png" class="img-responsive" alt="about img">
+						<h3>Ms. Lazzzzzy</h3>
+						<h5>Eatting &amp; Sleeping</h5>
+					</div>
+				</div>
 
 			</div>
 		</div>
@@ -380,7 +394,6 @@ Individual creation
 						<hr>
 						<h4>Talk to me :)</h4>
 					</div>
-					<!--PHP coding sending customer message to my email-->
 					<?php
 						if (isset($_POST['contact_name']) && isset($_POST['contact_subject']) && isset($_POST['contact_email']) && isset($_POST['contact_text'])){
 							$contact_name = $_POST['contact_name'];
@@ -435,7 +448,7 @@ Individual creation
 				<div class="col-md-12">
 					<ul class="social-icon wow fadeIn" data-wow-delay="0.3s">
 						<li><a href="https://www.facebook.com/leandrojiew" class="fa fa-facebook"></a></li>
-						<li><a href="#" class="fa fa-flickr"></a></li>
+						<li><a href="#" class="fa fa-camera"></a></li>
 						<li><a href="https://instagram.com/leandro_lol/" class="fa fa-instagram"></a></li>
 					</ul>
 					<p class="wow bounceIn">Copyright &copy; <span>Leandro Jiao</span> 15/08/2014 | Website created by: <span>Leandro Jiao</span></p>
