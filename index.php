@@ -448,7 +448,7 @@ Individual creation
 				<div class="col-md-12">
 					<ul class="social-icon wow fadeIn" data-wow-delay="0.3s">
 						<li><a href="https://www.facebook.com/leandrojiew" class="fa fa-facebook"></a></li>
-						<li><a href="#" class="fa fa-camera"></a></li>
+						<li><a href="https://www.flickr.com/photos/leandrojiao/" class="fa fa-camera"></a></li>
 						<li><a href="https://instagram.com/leandro_lol/" class="fa fa-instagram"></a></li>
 					</ul>
 					<p class="wow bounceIn">Copyright &copy; <span>Leandro Jiao</span> 15/08/2014 | Website created by: <span>Leandro Jiao</span></p>
