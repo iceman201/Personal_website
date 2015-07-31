@@ -15,6 +15,37 @@ body
         font-weight: 400;
         overflow-x: hidden;
     }
+    
+    
+.header-unit {
+  height: 600px;
+  border: 2px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:-1;
+}
+video.fillWidth {
+	width: 100%;
+}
+    
+    
+    
+    
 
 /* start hr */
 hr
@@ -470,9 +501,11 @@ h3.about-title {
 /* start contact */
 #contact
     {
+        /*
+        I have removed this as it is no longer needed with the video element present - Daniel.
         background: #ffffff;
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 80px;*/
     }
 #contact .form-control
     {
