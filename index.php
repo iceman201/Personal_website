@@ -111,7 +111,6 @@ Individual creation
 	<section id="service">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-md-12 text-center wow bounceIn">
 					<h2>Services</h2>
 					<hr>
@@ -385,15 +384,21 @@ Individual creation
 
 
 	<!-- contact -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
+	<section style="background: none;" id="contact">
+		<div class="header-unit">
+			<div id="video-container">
 				<div class="col-md-12">
+					<video autoplay loop class="fillWidth">
+						<source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
+						<source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
+						Your browser does not support the video tag. I suggest you upgrade your browser.
+					</video>
 					<div class="wow bounceIn">
-						<h2 class="wow bounceIn">Contact</h2>
+						<h2 style="color:#FFFFFF" class="wow bounceIn">Contact</h2>
 						<hr>
-						<h4>Talk to me :)</h4>
+						<h4>If you want to contact me, here we go</h4>
 					</div>
+
 					<?php
 						if (isset($_POST['contact_name']) && isset($_POST['contact_subject']) && isset($_POST['contact_email']) && isset($_POST['contact_text'])){
 							$contact_name = $_POST['contact_name'];
@@ -405,39 +410,41 @@ Individual creation
 								$subject = $contact_subject;
 								$content = $contact_name."\n".$contact_text;
 								$headers = 'From:'.$contact_email;
-
 								if (mail($to, $subject, $content, $headers)){
-									echo 'send to jiaoliguo';
+									$message = 'send to Liguo Jiao';
+									echo "<script type='text/javascript'>alert('$message');</script>";
 								}
 								else{
-									echo 'Sorry, an error occurred, please try again.';
+									$message = 'Sorry, an error occurred, please try again.';
+									echo "<script type='text/javascript'>alert('$message');</script>";
 								}
-
 							} else {
-								echo 'Please fill up all fields.';
+								$message = 'Please fill up all information';
+								echo "<script type='text/javascript'>alert('$message');</script>";
 							}
 						}
 					?>
 					<form action="index.php" method="post" role="form">
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="text" name="contact_name" placeholder="Name" class="form-control">
+							<input style="background:#FFFFFF; color:black" type="text" name="contact_name" placeholder="Name" class="form-control">
 						</div>
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="email" name="contact_email" placeholder="Email" class="form-control">
+							<input style="background:#FFFFFF; color:black" type="email" name="contact_email" placeholder="Email" class="form-control">
 						</div>
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="text" name="contact_subject" placeholder="Subject" class="form-control">
+							<input style="background:#FFFFFF; color:black" type="text" name="contact_subject" placeholder="Subject" class="form-control">
 						</div>
-						<div class="col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
-							<textarea class="form-control" name="contact_text" rows="5" placeholder="Message"></textarea>
+						<div class="col-md-offset-3 col-sm-offset-3 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+							<textarea style="background:#FFFFFF; color:black" class="form-control" name="contact_text" rows="6" placeholder="Message"></textarea>
 						</div>
-						<div class="col-md-offset-3 col-sm-offset-3 col-sm-6 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-							<input type="submit" value="Send" class="form-control">
+						<div class="col-md-offset-5 col-sm-offset-3 col-sm-2 col-md-2 wow fadeIn" data-wow-delay="0.3s">
+							<input style="background:#55acee; color:#FFFFFF" type="submit" value="Send" class="submit1">
 						</div>
 					</form>
 				</div>
-			</div>
-		</div>
+
+			</div><!-- end video-container -->
+		</div><!-- end .header-unit -->	
 	</section>
 	<!-- end -->
 
@@ -448,7 +455,7 @@ Individual creation
 				<div class="col-md-12">
 					<ul class="social-icon wow fadeIn" data-wow-delay="0.3s">
 						<li><a href="https://www.facebook.com/leandrojiew" class="fa fa-facebook"></a></li>
-						<li><a href="#" class="fa fa-camera"></a></li>
+						<li><a href="https://www.flickr.com/photos/leandrojiao/" class="fa fa-camera"></a></li>
 						<li><a href="https://instagram.com/leandro_lol/" class="fa fa-instagram"></a></li>
 					</ul>
 					<p class="wow bounceIn">Copyright &copy; <span>Leandro Jiao</span> 15/08/2014 | Website created by: <span>Leandro Jiao</span></p>

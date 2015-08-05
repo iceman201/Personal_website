@@ -15,6 +15,39 @@ body
         font-weight: 400;
         overflow-x: hidden;
     }
+    
+    
+.header-unit {
+  height: 650px;
+  border: 0px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:-5%;
+	left:0%;
+	height:150%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:-1;
+}
+video.fillWidth {
+	width: 100%;
+    top:-30%;
+    left:0%;
+}
+    
+    
+    
+    
 
 /* start hr */
 hr
@@ -479,9 +512,16 @@ h3.about-title {
         background: transparent;
         border-radius: 0px;
         box-shadow: none;
-        border: 1px solid #CCC;
+        /*border: 0px solid #CCC;*/
         margin-bottom: 20px;
         transition: all 0.4s ease-in-out;
+    }
+#contact .submit1
+    {
+        height: 50px;
+        width: 100%;
+        position:relative;
+        bottom:30%;
     }
 #contact input
     {
@@ -491,22 +531,22 @@ h3.about-title {
     {
         border: 2px solid #55acee;
         font-weight: bold;
-		color: #55acee;
+        color: #55acee;
     }
 #contact input[type="submit"]:hover
     {
         background: #55acee;
-		color: #fff;
+        color: #fff;
     }
 /* end contact */
 
 /* start footer */
 footer
     {
-        background: #202020;
+        background: transparent;
         color: #ffffff;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         text-align: center;
     }
 footer p
