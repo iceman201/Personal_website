@@ -23,6 +23,7 @@ Individual creation
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">		
 	<link rel="stylesheet" href="css/web-style.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 </head>
 
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
@@ -44,6 +45,7 @@ Individual creation
 			<div class="collapse navbar-collapse"> 
 				<ul class="nav navbar-nav navbar-right"> <!-- setup navbar position-->
 					<li><a href="#home" class="smoothScroll">Home</a></li>
+					<li><a href="#experiences" class="smoothScroll">Experiences</a></li>
 					<li><a href="#service" class="smoothScroll">Services</a></li>
 					<li><a href="#about" class="smoothScroll">About</a></li>
 					<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
@@ -171,25 +173,48 @@ Individual creation
 	<!-- end -->
 
 	<!-- divider -->
-	<div class="divider">
-		<div class="overlay">
-			<div class="container">
-				<div class="row">
-					<div class="divider-des">
-						<h3 class="text-uppercase">The best minimal business one page ever</h3>
-						<p>It is fully responsive, clean, modern, creative, and minimal.</p>
-						<div class="btn-group-vertical">
-							<button type = "button1" class="btn btn-default text-uppercase">Download</button>
-							<button type = "button2" class="btn btn-info">Haha</button>
-							<button type = "button3" class="btn btn-info">Hehe</button>
-							<button type = "button4" class="btn btn-info">Lala</button>
-							<button type = "button5" class="btn btn-info">Wawa</button>
+	<section id="experiences">
+		<div class="divider">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="divider-des">
+							<h3 class="text-uppercase">3 years University studies</h3>
+							<p>All my university project &amp; Leisure creation programming projects</p>
+							<p><br></p>
+							<div class="btn-group-vertical">
+								<p>University Projects</p>
+								<button onclick="location.href='https://github.com/iceman201/ENCE360_Web_Scraper';" 
+								type = "button1" class="btn btn-info">Multiple Threads Web Scraper</button>
+								<button onclick="location.href='https://github.com/iceman201/COSC364';" 
+								type = "button2" class="btn btn-info">RIP Simulation</button>
+								<button onclick="location.href='https://github.com/iceman201/COSC363';" 
+								type = "button3" class="btn btn-info">C++/Open GL 3D Game Design</button>
+								<button onclick="location.href='https://github.com/iceman201/COSC262';" 
+								type = "button4" class="btn btn-info">Basic Algorithm</button>
+								<button onclick="location.href='https://github.com/iceman201/COSC261';" 
+								type = "button5" class="btn btn-info">A Simple Complier by Python</button>
+								<button onclick="location.href='https://github.com/iceman201/JADE';" 
+								type = "button4" class="btn btn-info">Bookstore Inventory System by JADE</button>
+							</div>
+							<p><br></p>
+							<div class="btn-group-vertical">
+								<p>Hobby Projects</p>
+								<button onclick="location.href='https://github.com/iceman201/Personal_website';" 
+								type = "button1" class="btn btn-info">Personal Website</button>
+								<button onclick="location.href='https://github.com/iceman201/Personal_Creation/tree/master/TCP_Transmiter';" 
+								type = "button2" class="btn btn-info">TCP Transmiter by C#</button>
+								<button onclick="location.href='https://github.com/iceman201/Personal_Creation/tree/master/Simple_Calculator';" 
+								type = "button3" class="btn btn-info">Simple Calculator by C#</button>
+								<button onclick="location.href='https://github.com/iceman201/Swift_FirstTry';" 
+								type = "button5" class="btn btn-info">Simple IOS Swift App</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<!-- end -->
 
 	<!-- about -->
@@ -283,7 +308,7 @@ Individual creation
 
 						<ul class="filter-wrapper clearfix">
 							<li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".graphic">Graphic</a></li>
+							<li><a href="#" class="opc-main-bg" data-filter=".graphic">Photography</a></li>
 							<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
 							<li><a href="#" class="opc-main-bg" data-filter=".wallpaper">Wallpaper</a></li>
 						</ul>
@@ -296,7 +321,8 @@ Individual creation
 										<img src="images/portfolio-img-1.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
 											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
+												<a href="#myPopup" data-rel="popup" class="fa fa-search"></a>
+
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>	
@@ -304,13 +330,13 @@ Individual creation
 										</div>
 									</div>
 								</div>
-
+								<!--JQuery lightbox pop up picture-->
 								<div class="iso-box graphic wallpaper col-md-4 col-sm-6 col-xs-12">
 									<div class="portfolio-thumb">
 										<img src="images/portfolio-img-2.jpg" class="fluid-img" alt="portfolio img">
 										<div class="portfolio-overlay">
 											<div class="portfolio-description">
-												<a href="#" class="fa fa-search"></a>
+												<a href="images/team-img-2.png" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
@@ -389,8 +415,11 @@ Individual creation
 			<div id="video-container">
 				<div class="col-md-12">
 					<video autoplay loop class="fillWidth">
-						<source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-						<source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
+						<!--<source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
+						<source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">-->
+						<source class="vidsrc1" src="http://d2czg0itc288bv.cloudfront.net/assets/video/copter.mp4?20150730" type="video/mp4">
+        				<source class="vidsrc1" src="http://d2czg0itc288bv.cloudfront.net/assets/video/copter.webm?20150730" type="video/webm">
+    				    <source class="vidsrc2" src="http://d2czg0itc288bv.cloudfront.net/assets/video/copter.ogv?20150730" type="video/ogg">
 						Your browser does not support the video tag. I suggest you upgrade your browser.
 					</video>
 					<div class="wow bounceIn">
@@ -474,6 +503,8 @@ Individual creation
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
+
+	<script src="js/lightbox.js"></script>
 
 </body>
 </html>
