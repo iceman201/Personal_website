@@ -48,7 +48,7 @@ Individual creation
 					<li><a href="#experiences" class="smoothScroll">Experiences</a></li>
 					<li><a href="#service" class="smoothScroll">Services</a></li>
 					<li><a href="#about" class="smoothScroll">About</a></li>
-					<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+					<li><a href="#photography" class="smoothScroll">Photography</a></li>
 					<li><a href="#contact" class="smoothScroll">Contact</a></li>
 				</ul>
 			</div>
@@ -98,7 +98,7 @@ Individual creation
                             	<h2 >Mobile development</h2>
 								<h1 >IOS, Swift</h1>
 								<h3>E-Commerce, Social Networking, Entertainment APP </h3>
-								<a href="#portfolio" class="smoothScroll webmo-slider-btn btn btn-default">Project</a>	
+								<a href="#photography" class="smoothScroll webmo-slider-btn btn btn-default">Project</a>	
 							</div>
 						</div>
 					</li>
@@ -294,13 +294,13 @@ Individual creation
 	</section>
 	<!-- end -->
 
-	<!-- portfolio -->
-	<section id="portfolio">
+	<!-- photography -->
+	<section id="photography">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="wow bounceIn">
-						<h2 class="wow bounceIn">Portfolio</h2>
+						<h2 class="wow bounceIn">Photography</h2>
 						<hr>
 						<h4>our lastest projects in the past 6 months</h4>
 					</div>
@@ -317,10 +317,10 @@ Individual creation
 							<div class="iso-box-wrapper col4-iso-box">
 
 								<div class="iso-box graphic photoshop wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="images/portfolio-img-1.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
+									<div class="photography-thumb">
+										<img src="images/photography-img-1.jpg" class="fluid-img" alt="photography img">
+										<div class="photography-overlay">
+											<div class="photography-description">
 												<a href="#myPopup" data-rel="popup" class="fa fa-search"></a>
 
 												<a href="#" class="fa fa-link"></a>
@@ -332,10 +332,10 @@ Individual creation
 								</div>
 								<!--JQuery lightbox pop up picture-->
 								<div class="iso-box graphic wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="images/portfolio-img-2.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
+									<div class="photography-thumb">
+										<img src="images/photography-img-2.jpg" class="fluid-img" alt="photography img">
+										<div class="photography-overlay">
+											<div class="photography-description">
 												<a href="images/team-img-2.png" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
@@ -346,10 +346,10 @@ Individual creation
 								</div>
 
 								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="images/portfolio-img-3.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
+									<div class="photography-thuphotographymb">
+										<img src="images/photography-img-3.jpg" class="fluid-img" alt="photography img">
+										<div class="photography-overlay">
+											<div class="photography-description">
 												<a href="#" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
@@ -360,10 +360,10 @@ Individual creation
 								</div>
 
 								<div class="iso-box graphic col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="images/portfolio-img-4.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
+									<div class="photography-thumb">
+										<img src="images/photography-img-4.jpg" class="fluid-img" alt="photography img">
+										<div class="photography-overlay">
+											<div class="photography-description">
 												<a href="#" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
@@ -374,10 +374,10 @@ Individual creation
 								</div>
 
 								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="images/portfolio-img-5.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
+									<div class="photography-thumb">
+										<img src="images/photography-img-5.jpg" class="fluid-img" alt="photography img">
+										<div class="photography-overlay">
+											<div class="photography-description">
 												<a href="#" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
@@ -387,10 +387,10 @@ Individual creation
 									</div>
 								</div>
 								<div class="iso-box graphic photoshop col-md-4 col-sm-6 col-xs-12">
-									<div class="portfolio-thumb">
-										<img src="images/portfolio-img-6.jpg" class="fluid-img" alt="portfolio img">
-										<div class="portfolio-overlay">
-											<div class="portfolio-description">
+									<div class="photography-thumb">
+										<img src="images/photography-img-6.jpg" class="fluid-img" alt="photography img">
+										<div class="photography-overlay">
+											<div class="photography-description">
 												<a href="#" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
