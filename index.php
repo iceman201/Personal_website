@@ -312,20 +312,19 @@ Individual creation
 							<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
 							<li><a href="#" class="opc-main-bg" data-filter=".wallpaper">Wallpaper</a></li>
 						</ul>
-
+				
 						<div class="iso-box-section">
 							<div class="iso-box-wrapper col4-iso-box">
-
+								<!--1-->
 								<div class="iso-box graphic photoshop wallpaper col-md-4 col-sm-6 col-xs-12">
 									<div class="photography-thumb">
-										<img src="images/photography-img-1.jpg" class="fluid-img" alt="photography img">
+										<img src="https://farm8.staticflickr.com/7486/16253745735_44011305d9_n_d.jpg" class="fluid-img" alt="photography img">
 										<div class="photography-overlay">
 											<div class="photography-description">
-												<a href="#myPopup" data-rel="popup" class="fa fa-search"></a>
-
+												<a href="https://farm8.staticflickr.com/7486/16253745735_44011305d9_b_d.jpg" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>	
+												<h4>Summer NZ</h4>
+												<p>26/12/2015</p>	
 											</div>											
 										</div>
 									</div>
@@ -333,24 +332,24 @@ Individual creation
 								<!--JQuery lightbox pop up picture-->
 								<div class="iso-box graphic wallpaper col-md-4 col-sm-6 col-xs-12">
 									<div class="photography-thumb">
-										<img src="images/photography-img-2.jpg" class="fluid-img" alt="photography img">
+										<img src="https://farm8.staticflickr.com/7696/17022773400_9ce707305d_n_d.jpg" class="fluid-img" alt="photography img">
 										<div class="photography-overlay">
 											<div class="photography-description">
-												<a href="images/team-img-2.png" data-lightbox="image-1" class="fa fa-search"></a>
-												<a href="#" class="fa fa-link"></a>
-												<h4>Project title</h4>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
+												<a href="https://farm8.staticflickr.com/7696/17022773400_9ce707305d_b_d.jpg" data-lightbox="image-1" class="fa fa-search"></a>
+												<a href="https://www.flickr.com/photos/leandrojiao/17022773400/" class="fa fa-link"></a>
+												<h4>Morning at Rainbow Community</h4>
+												<p>April 2015. Golden Bay Rock climbing trip with UC Rock climbing club</p>
 											</div>
 										</div>
 									</div>
 								</div>
-
+								<!--3-->
 								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
-									<div class="photography-thuphotographymb">
-										<img src="images/photography-img-3.jpg" class="fluid-img" alt="photography img">
+									<div class="photography-thumb">
+										<img src="images/photography/photography-img-3.jpg" class="fluid-img" alt="photography img">
 										<div class="photography-overlay">
 											<div class="photography-description">
-												<a href="#" class="fa fa-search"></a>
+												<a href="#" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
@@ -361,10 +360,10 @@ Individual creation
 
 								<div class="iso-box graphic col-md-4 col-sm-6 col-xs-12">
 									<div class="photography-thumb">
-										<img src="images/photography-img-4.jpg" class="fluid-img" alt="photography img">
+										<img src="images/photography/photography-img-4.jpg" class="fluid-img" alt="photography img">
 										<div class="photography-overlay">
 											<div class="photography-description">
-												<a href="#" class="fa fa-search"></a>
+												<a href="#" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
@@ -375,10 +374,10 @@ Individual creation
 
 								<div class="iso-box wallpaper col-md-4 col-sm-6 col-xs-12">
 									<div class="photography-thumb">
-										<img src="images/photography-img-5.jpg" class="fluid-img" alt="photography img">
+										<img src="images/photography/photography-img-5.jpg" class="fluid-img" alt="photography img">
 										<div class="photography-overlay">
 											<div class="photography-description">
-												<a href="#" class="fa fa-search"></a>
+												<a href="#" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
@@ -388,10 +387,10 @@ Individual creation
 								</div>
 								<div class="iso-box graphic photoshop col-md-4 col-sm-6 col-xs-12">
 									<div class="photography-thumb">
-										<img src="images/photography-img-6.jpg" class="fluid-img" alt="photography img">
+										<img src="images/photography/photography-img-6.jpg" class="fluid-img" alt="photography img">
 										<div class="photography-overlay">
 											<div class="photography-description">
-												<a href="#" class="fa fa-search"></a>
+												<a href="#" data-lightbox="image-1" class="fa fa-search"></a>
 												<a href="#" class="fa fa-link"></a>
 												<h4>Project title</h4>
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
