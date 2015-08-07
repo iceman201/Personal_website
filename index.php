@@ -275,8 +275,8 @@ Individual creation
 				<!-- Can -->
 				<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 					<div class="about-wrapper">
-						<img src="images/team-img-3.png" class="img-responsive" alt="about img">
-						<h3>Ms. Lazzzzzy</h3>
+						<img src="images/team-img-4.jpg" class="img-responsive" alt="about img">
+						<h3>Caocan Liao</h3>
 						<h5>Programmer &amp; Sleeping</h5>
 					</div>
 				</div>
