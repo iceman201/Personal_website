@@ -4,7 +4,7 @@ Name: Leandro Jiao (Liguo Jiao)
 University of Canterbury
 
 Personal Website
-Individual creation
+A fun project with friends
 
 -->
 <!DOCTYPE html>
@@ -17,7 +17,6 @@ Individual creation
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -225,13 +224,13 @@ Individual creation
 				<div class="col-md-12 wow bounceIn">
 					<h2>About</h2>
 					<hr>
-					<h4>a little about our Studio...</h4>
+					<h4>a little about our Team...</h4>
 				</div>
 
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-sm-6 wow fadeInLeft webmo-about-left" data-wow-delay="0.3s">
-					<h3 class="about-title">Studio History</h3>
+					<h3 class="about-title">Team History</h3>
 					<p>Phasellus tempus malesuada congue. Sed id est tincidunt, iaculis nulla vel, sodales metus. Morbi interdum accumsan augue, in accumsan neque lacinia sed. Fusce cursus eu ligula ut gravida. Ut tristique hendrerit bibendum. Suspendisse euismod sit amet quam et luctus.</p>
                     <p>Nulla viverra diam sed justo vehicula, non venenatis massa gravida. Nunc efficitur et quam non tempor. Nullam nec nisl eget est ultrices elementum nec vel nisl. Cras vestibulum nisl vel justo tempor, ut lacinia est accumsan.</p>
 				</div>
@@ -242,12 +241,12 @@ Individual creation
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
 					</div>
 
-					<span class="text-uppercase">Mobile Development Swift 70%</span>
+					<span class="text-uppercase">Back-End Development eg. Python 70%</span>
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
 					</div>
 
-					<span class="text-uppercase">Wordpress 65%</span>
+					<span class="text-uppercase">Mobile Development Swift 65%</span>
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
 					</div>
@@ -540,8 +539,6 @@ Individual creation
 			<div id="video-container">
 				<div class="col-md-12">
 					<video autoplay loop class="fillWidth">
-						<!--<source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-						<source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">-->
 						<source class="vidsrc1" src="http://d2czg0itc288bv.cloudfront.net/assets/video/copter.mp4?20150730" type="video/mp4">
         				<source class="vidsrc1" src="http://d2czg0itc288bv.cloudfront.net/assets/video/copter.webm?20150730" type="video/webm">
     				    <source class="vidsrc2" src="http://d2czg0itc288bv.cloudfront.net/assets/video/copter.ogv?20150730" type="video/ogg">
@@ -628,7 +625,6 @@ Individual creation
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
-
 	<script src="js/lightbox.js"></script>
 
 </body>
